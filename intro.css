@@ -1,0 +1,63 @@
+/* STYLE REMOVER */
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    /*background-color: rgb(36, 36, 39);*/
+    color: whitesmoke;
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgb(28, 160, 158) 0%, rgba(8,70,218,1) 90% );
+}
+
+.intro {
+    width: 100vw;
+    padding: 2vw;
+
+    position: absolute;
+    top: 250px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro-message {
+    margin-top: 2vw;
+    width: 45vw;
+}
+
+.intro .intro-bienvenu {
+    width: fit-content;
+    margin: 0.5em 0;
+    padding: 0,5em;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(191, 191, 191);
+
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173, 144, 173, 0.323) 0%, rgba(15, 51, 92, 0.329) 90% );;
+}
+
+.intro-bienvenu p {
+    padding: 0.5em;
+}
+
+.intro-titre h1 {
+    margin-bottom: 0.3em;
+    font-size: 7vh;
+}
+
+.intro-texte p {
+    color: whitesmoke;
+}
+
+.intro-img img {
+    margin-right: 12vw;
+    padding: 1vw;
+    width: 30vw;
+    height: auto;
+}
