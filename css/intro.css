@@ -7,16 +7,12 @@
     list-style: none;
 }
 
-body {
-    /*background-color: rgb(36, 36, 39);*/
-    color: whitesmoke;
-    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgb(28, 160, 158) 0%, rgba(8,70,218,1) 90% );
-}
-
 .intro {
-    width: 100vw;
-    padding: 2vw;
+    margin : 0;
+    padding: 2vw 0 ;
 
+    width: 90%;
+    
     position: absolute;
     top: 250px;
 
@@ -27,7 +23,7 @@ body {
 
 .intro-message {
     margin-top: 2vw;
-    width: 45vw;
+    width: 44vw;
 }
 
 .intro .intro-bienvenu {
@@ -48,11 +44,13 @@ body {
 
 .intro-titre h1 {
     margin-bottom: 0.3em;
-    font-size: 7vh;
+    font-size: 4vw;
 }
 
 .intro-texte p {
+    text-transform: uppercase;
     color: whitesmoke;
+    text-align: justify;
 }
 
 .intro-img img {

@@ -1,0 +1,35 @@
+/* STYLE REMOVER */
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.projets {
+    height: 700px;
+    width: 90%;
+
+    position: absolute;
+    top: 920px;
+
+    background-color: red;
+}
+
+.projets-titre {
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.projets-sous-titre {
+    width: 50%;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+projets-contenu {
+    width: 90%;
+}

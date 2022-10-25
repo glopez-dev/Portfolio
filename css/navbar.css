@@ -1,0 +1,151 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BARRE DE NAVIGATION  */
+.nav-bar {
+  z-index: 50;
+
+  margin : 0;
+  padding : 1vw 5vw 1vw 5vw;
+
+  height : 110px;
+  width: 100%;
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position:fixed;
+  top:0;
+  left:0;
+  
+  background-color: #4157D0;
+}
+
+/* LOGO DE LA BARRE DE NAVIGATION */
+.nav-logo {
+  margin-top: 0;
+  width: 265px;
+
+  font-size: 22.5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  word-wrap: nowrap;
+
+}
+
+/* nav-menu = conteneur de tout les éléments à droite de la nav-bar */
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* Permet d'aligner verticalement tout les éléments a droite du nav-menu*/
+nav .conteneurs-nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+/* Les liens textuels du nav-menu */
+nav .nav-menu-liens {
+  padding: 0 1vw;
+  width:395px;
+  /* Espacement des liens */ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  font-size: 22.5px;
+  text-transform: uppercase;
+
+}
+/* Conteneur des deux boutons ronds */
+/*
+nav .nav-menu-boutons  {
+  width: 150px;
+  margin: 0 5px 0 5px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-size: 22.5px;
+}
+*/
+
+.nav-menu-boutons a {
+  padding: 10px;
+
+  width: 50px; 
+  height: 50px;
+
+  border : solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 50%;
+}
+
+.nav-menu-boutons a:first-child {
+  margin-right: 20px;
+}
+
+/* Le bouton "Me contacter" */
+nav .nav-menu-contact {
+  width: 188px;
+  padding: 0.5em;
+  margin: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+
+  border : solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 0.5em;
+
+  font-weight: 600;
+  font-size: 22.5px;
+}
+
+/* TEXTE DE LA BARRE DE NAVIGATION */
+
+.nav-logo {
+  text-transform: uppercase;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+}
+
+.nav-menu a {
+  display: inline;
+
+  color: rgb(255, 255, 255);
+  text-decoration: solid;
+  text-align: center;
+}
+
+nav a:hover {
+  color : rgba(192, 192, 192, 0.555);
+  border-color: rgba(192, 192, 192, 0.555); 
+}
+
+.nav-menu-contact:hover {
+  border-color: rgba(192, 192, 192, 0.555); 
+
+}
+
+
