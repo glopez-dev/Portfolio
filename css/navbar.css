@@ -67,8 +67,26 @@ nav .nav-menu-liens {
 
   font-size: 22.5px;
   text-transform: uppercase;
-
 }
+
+.nav-menu-liens-texte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.guillemets {
+  color: rgba(255, 255, 255, 0);
+}
+
+.nav-menu-liens-texte:hover .guillemets {
+  color: whitesmoke;
+}
+
+.guillemets {
+  margin: 0 3px;
+}
+
 /* Conteneur des deux boutons ronds */
 /*
 nav .nav-menu-boutons  {
