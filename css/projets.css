@@ -8,13 +8,13 @@
 }
 
 .projets {
-    height: 65vw;
+    height: 70vw;
     width: 90%;
 
     position: absolute;
-    top: 920px;
+    top: 1000px;
 
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .projets-titre {
@@ -44,21 +44,21 @@
     display: grid;
     grid-template-columns: 53fr 53fr;
     grid-template-rows: 53fr 53fr;
-    gap: 4vw 2vw;
+    gap: 2vw 2vw;
 
     /*grid-template-areas: 
         "projet1 | . | projet2"
         ". | . | ."
         "projet3 | . | projet4";*/
 
-    background-color: cyan;
+    /*background-color: cyan;*/
 }
 
 .projet1 {
     grid-column: 1 1;
     grid-row: 1 1;
 
-    background-color: green;
+    /*background-color: green;*/
 
 }
 
@@ -66,7 +66,7 @@
     grid-column: 2 2;
     grid-row: 2 2;
 
-    background-color: green;
+    /*background-color: green;*/
 
 }
 
@@ -74,7 +74,7 @@
     grid-column: 1 1;
     grid-row: 2 2;
 
-    background-color: green;
+    /*background-color: green;*/
 
 }
 
@@ -82,10 +82,33 @@
     grid-column: 4 4;
     grid-row: 4 4;
 
-    background-color: green;
+    /*background-color: green;*/
 
 }
 
 .projet-img {
-    background-color: orange;
+    height: 90%;
+    width: 100%;
+    /*background-color: orange;*/
+
+    border : solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 0.5em;
+}
+
+.projet-legende {
+    height: 10%;
+    width: 100;;
+
+    /*background-color: pink;*/    
+
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
