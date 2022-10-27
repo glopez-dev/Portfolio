@@ -59,7 +59,7 @@ nav .conteneurs-nav-menu {
 /* Les liens textuels du nav-menu */
 nav .nav-menu-liens {
   padding: 0 1vw;
-  width:395px;
+  width:20em;
   /* Espacement des liens */ 
   display: flex;
   flex-direction: row;
@@ -85,6 +85,7 @@ nav .nav-menu-liens {
 
 .guillemets {
   margin: 0 3px;
+  font-weight: 300;
 }
 
 /* Conteneur des deux boutons ronds */
@@ -126,8 +127,6 @@ nav .nav-menu-contact {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-
 
   border : solid;
   border-color: white;
