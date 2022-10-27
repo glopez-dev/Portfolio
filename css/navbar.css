@@ -88,19 +88,6 @@ nav .nav-menu-liens {
   font-weight: 300;
 }
 
-/* Conteneur des deux boutons ronds */
-/*
-nav .nav-menu-boutons  {
-  width: 150px;
-  margin: 0 5px 0 5px;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  font-size: 22.5px;
-}
-*/
 
 .nav-menu-boutons a {
   padding: 10px;
