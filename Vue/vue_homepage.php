@@ -1,58 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/intro.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/projets.css">
-
-    <!--Font Awesome icons-->
-    <script src="https://kit.fontawesome.com/69c46c92d5.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <!-- BARRE DE NAVIGATION SUPERIEURE -->
-    <nav class="nav-bar">
-        <div class="nav-logo">
-            <a href="#"><!--<img src="logo.png" alt="logo-console">--><h3>LOPEZ Gabriel</h3></a>
-        </div>
-        <div class="nav-menu">
-            <div class="conteneurs-nav-menu">
-                <div class="nav-menu-liens">
-                    <a class="lien-guillemets" href="#">
-                        <div class="nav-menu-liens-texte">
-                            <div class="guillemets">"</div>
-                               <div>BTS SIO</div> 
-                            <div class="guillemets">"</div>
-                        </div>
-                    </a>
-                    <a class="lien-guillemets" "href="#">
-                        <div class="nav-menu-liens-texte">
-                            <div class="guillemets">"</div>
-                              Profil 
-                            <div class="guillemets">"</div>
-                        </div>
-                    </a>
-                    <a class="lien-guillemets" href="#projets">
-                        <div class="nav-menu-liens-texte">
-                            <div class="guillemets">"</div>
-                                Projets 
-                            <div class="guillemets">"</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="conteneurs-nav-menu">
-                <a href="#">
-                    <div class="nav-menu-contact">
-                        Me contacter
-                    </div>
-                </a>
-            </div>
-        </div>
-    </nav>
+<?php
+    $title = "Accueil";
+    ob_start();
+?>
     <!-- CONTENU -->
     <div class="content">
         <!-- BLOC D'INTRODUCTION -->
@@ -135,24 +84,9 @@
         </div>
     </div>
     </div>
-    <!--PIEDS DE PAGE-->
-    <footer>
-        <div class="logo">
-            <span>port</span>
-            <span>folio</span>
-        </div>
-        <div class="footer-liens">
-            <ol>
-                <li><a href="#">BTS SIO</a></li>
-                <li><a href="#">PROFIL</a></li>
-                <li><a href="#">PROJETS</a></li>
-            </ol>
-            <div class="nav-menu-boutons">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/glopez-dev" target="_blank"><i class="fa-brands fa-github"></i></a> 
-            </div>
-
-        </div>
-    </footer>
-</body> 
-</html>
+<?php
+    $content = ob_get_clean();
+    require 'Vue/vue_header.php';
+    echo $content;
+    require 'Vue/vue_footer.php';
+?>

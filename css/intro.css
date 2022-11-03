@@ -23,7 +23,7 @@
 
 .intro-message {
     margin-top: 2vw;
-    width: 44vw;
+    width: 35vw;
 }
 
 .intro .intro-bienvenu {
@@ -35,7 +35,7 @@
     border-width: 1px;
     border-color: rgb(191, 191, 191);
 
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173, 144, 173, 0.323) 0%, rgba(15, 51, 92, 0.329) 90% );;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(144, 150, 173, 0.323) 0%, rgba(15, 51, 92, 0.329) 90% );;
 }
 
 .intro-bienvenu p {
