@@ -17,6 +17,11 @@
             include 'Vue/vue_contact.php';
         }
 
+        private function projets()
+        {
+            include 'Vue/vue_projets.php';
+        }
+
         // Main controler
         public function displayVue()
         {
@@ -26,6 +31,9 @@
                {
                 case 'contact' : 
                     $this->contact();
+                    break;
+                case 'projets' :
+                    $this->projets();
                     break;
                }
             }

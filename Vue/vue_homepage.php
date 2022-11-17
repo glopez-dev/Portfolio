@@ -1,9 +1,10 @@
 <?php
     $title = "Accueil";
+    $css = "accueil";
     ob_start();
 ?>
     <!-- CONTENU -->
-    <div class="content">
+<div class="content">
         <!-- BLOC D'INTRODUCTION -->
     <div class="intro">
         <div class="intro-message">
@@ -83,7 +84,7 @@
             </a>
         </div>
     </div>
-    </div>
+</div>
 <?php
     $content = ob_get_clean();
     require 'Vue/vue_header.php';

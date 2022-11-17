@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title><?php echo $title ?></title>
     <!-- CSS STYLE SHEETS-->
-    <link rel="stylesheet" href="/css/intro.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/general.css">
-    <link rel="stylesheet" href="/css/projets.css">
+    <link rel="stylesheet" href="/css/<?php echo $css ?>.css">
     <!-- FONT AWESOME ICONS-->
     <script src="https://kit.fontawesome.com/69c46c92d5.js" crossorigin="anonymous"></script>
+    <script src="/js/dropdown.js"></script>
 </head>
 
 <body>
@@ -21,13 +21,17 @@
         <div class="nav-menu">
             <div class="conteneurs-nav-menu">
                 <div class="nav-menu-liens">
-                    <a class="lien-guillemets" href="#">
-                        <div class="nav-menu-liens-texte">
-                            <div class="guillemets">"</div>
-                               <div>BTS SIO</div> 
-                            <div class="guillemets">"</div>
+                    <div class="dropdown-menu">
+                        <button class="drop-button" onclick="dropdownMenu()">
+                            BTS SIO 
+                        </button>
+                        <div id="dropdown-BTS-SIO" class="dropdown-content">
+                            <a href="">Lien 1</a>
+                            <a href="">Lien 2</a>
+                            <a href="">Lien 3</a>
                         </div>
-                    </a>
+                    </div>
+
                     <a class="lien-guillemets" "href="#">
                         <div class="nav-menu-liens-texte">
                             <div class="guillemets">"</div>
