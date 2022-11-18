@@ -42,7 +42,7 @@
         <div class="projets-contenu">
             <div class="projet1">
                 <div class="projet-img">
-                    <img>
+                    <img src="/img/Desert-6.jpg">
                 </div>
                 <div class="projet-legende">
                     Lorem ipsum dolor sit amet consectetur 
@@ -50,7 +50,7 @@
             </div>
             <div class="projet2">
                 <div class="projet-img">
-                    <img>
+                    <img src="/img/dune.jpg">
                 </div>
                 <div class="projet-legende">
                     Lorem ipsum dolor sit amet consectetur 
@@ -58,7 +58,7 @@
             </div>
             <div class="projet3">
                 <div class="projet-img">
-                    <img>
+                    <img src="/img/IMG_003.jpg">
                 </div>
                 <div class="projet-legende">
                     Lorem ipsum dolor sit amet consectetur 
@@ -66,7 +66,7 @@
             </div>
             <div class="projet4">
                 <div class="projet-img">
-                    <img>
+                    <img src="/img/orage.jpg">
                 </div>
                 <div class="projet-legende">
                     Lorem ipsum dolor sit amet consectetur 

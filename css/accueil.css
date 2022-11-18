@@ -11,8 +11,9 @@
 
 .intro {
     padding: 15vh 0 ;
+    margin: 10vh 0 5vh;
 
-    width: 90%;
+    width: 100%;
     height: 90vh;
     
     /*position: absolute;
@@ -37,7 +38,7 @@
     border-width: 1px;
     border-color: rgb(191, 191, 191);
 
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(144, 150, 173, 0.323) 0%, rgba(15, 51, 92, 0.329) 90% );;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(144, 150, 173, 0.322) 0%, rgba(15, 51, 92, 0.329) 90% );;
 }
 
 .intro-bienvenu p {
@@ -52,7 +53,7 @@
 .intro-texte p {
     text-transform: uppercase;
     color: whitesmoke;
-    text-align: justify;
+    text-align: left;
 }
 
 .intro-img img {
@@ -66,7 +67,7 @@
 
 .projets {
     height: 75vw;
-    width: 90%;
+    width: 100%;
 
     /*position: absolute;
     top: 1000px;*/
@@ -151,11 +152,16 @@
     height: 90%;
     width: 100%;
     /*background-color: orange;*/
+    overflow: hidden;
+}
 
-    border : solid;
-    border-color: white;
-    border-width: 1px;
+.projet-img img
+{
+    width: inherit;
+    height: auto;
+
     border-radius: 0.5em;
+    border: 1px solid whitesmoke;
 }
 
 .projet-legende {
@@ -191,8 +197,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5em;
+    transition: 0.25s;
+}
+
+.projets-lien-bas a:hover {
+    background-color: whitesmoke;
+    color:  rgb(82, 40, 166);
+}
+
+.projets-lien-bas a:hover span{
+    transition: 0.5s;
+}
+
+.projets-lien-bas a:hover span{
+    transform:translateX(+1.5vw) ;
 }
 
 .projets-lien-bas svg {
     width: 7vw;
+    transition: 0.5s;
+}
+
+.projets-lien-bas a:hover svg {
+    translate: -1.5vw;
 }

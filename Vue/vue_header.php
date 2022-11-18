@@ -26,9 +26,9 @@
                             BTS SIO 
                         </button>
                         <div id="dropdown-BTS-SIO" class="dropdown-content">
-                            <a href="">Lien 1</a>
-                            <a href="">Lien 2</a>
-                            <a href="">Lien 3</a>
+                            <a href="">Acquis</a>
+                            <a href="">Veille</a>
+                            <a href="">Stages</a>
                         </div>
                     </div>
 
