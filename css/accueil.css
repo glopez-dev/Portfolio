@@ -26,7 +26,7 @@
 
 .intro-message {
     margin-top: 2vw;
-    width: 35vw;
+    width: 45%;
 }
 
 .intro .intro-bienvenu {
@@ -37,8 +37,9 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(191, 191, 191);
+    border-radius: 0.5em;
 
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(144, 150, 173, 0.322) 0%, rgba(15, 51, 92, 0.329) 90% );;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(144, 150, 173, 0.322) 0%, rgba(15, 51, 92, 0.329) 90% );
 }
 
 .intro-bienvenu p {
@@ -56,13 +57,27 @@
     text-align: left;
 }
 
-.intro-img img {
-    margin-right: 12vw;
-    padding: 1vw;
-    width: 30vw;
-    height: auto;
+.intro-img {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.intro-img img {
+    padding: 1vw;
+    width: 100%;
+    height: auto;
+    border-radius: 47% 53% 65% 35% / 29% 38% 62% 71%;
+}
+
+@media (max-width: 425px) {
+    .intro
+    {
+        height: 100vh;
+    }
+}
 /* PROJETS */
 
 .projets {

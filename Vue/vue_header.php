@@ -39,7 +39,7 @@
                             <div class="guillemets">"</div>
                         </div>
                     </a>
-                    <a class="lien-guillemets" href="#projets">
+                    <a class="lien-guillemets" href="index.php?action=projets">
                         <div class="nav-menu-liens-texte">
                             <div class="guillemets">"</div>
                                 Projets 

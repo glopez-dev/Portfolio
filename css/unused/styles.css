@@ -18,7 +18,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #FFF;
+    --project-container-color: #FFF;
 
     /* Fonts & Typography */
     --body-font: 'Verdana', sans-serif;
@@ -123,7 +123,7 @@ img {
 }
 
 /* LAYOUT */
-.container {
+.project-container {
     max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);

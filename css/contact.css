@@ -8,11 +8,11 @@
 .conteneur-contact {
     min-height: 100vh;
     padding-top: 200px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     background-image: linear-gradient(175deg, #EEE 50%,);
 }
 
-/* container */
+/* project-container */
 .contact-form {
     max-width: 1280px;
     margin: 0 auto;

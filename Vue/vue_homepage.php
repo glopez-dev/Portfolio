@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="intro-img">
-            <!--<img src="Message.png" alt="bulle textuelle en 3D">-->
+            <img src="https://images.unsplash.com/photo-1534870439272-475575042b61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
         </div>
     </div>
     <!-- PROJETS -->
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="projets-lien-bas">
-            <a href="#">
+            <a href="index.php?action=projets">
                 <span>
                     Autres projets
                 </span>

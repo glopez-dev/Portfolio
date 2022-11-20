@@ -6,7 +6,7 @@
 <section class="conteneur-contact"> 
     <div class="contact-form">
         <h1>Me contacter</h1>
-        <p>Vous pouvez m'envoyer un e-mail a l'aide de ce formulaire</p>
+        <p>Vous pouvez directement m'envoyer un mail avec ce formulaire ou à mon adresse <span>glopez-dev@proton.me</span></p>
         <form>
             <div class="form-group">
                 <label for="firstname">Nom</label>
